@@ -1,13 +1,13 @@
 import express from 'express';
 import 'dotenv/config'; // ✅ This auto-runs dotenv.config()
 import cors from 'cors';
-import connectDB from './configs/db.js';
 import adminRouter from './routes/adminRoutes.js';
 import blogRouter from './routes/blogRoutes.js';
+import { connectToDatabase } from './configs/db.js';
 
 const app = express();
 
-await connectDB(); // ✅ Make sure this is inside top-level await OR wrap in async IIFE
+await connectToDatabase(); // ✅ Make sure this is inside top-level await OR wrap in async IIFE
 
 // Middlewares
 app.use(cors());
