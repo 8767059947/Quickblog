@@ -110,6 +110,42 @@ POST	/api/blog/add	Add a new blog
 PUT	/api/blog/:id	Update blog status or content
 DELETE	/api/blog/:id	Delete a blog
 
+📋 Assignment Mapping – Backend Developer Task
+
+This project QuickBlog – AI-Powered Blogging Platform fulfills the assignment requirements as follows:
+
+✅ Backend (Primary Focus)
+
+Authentication & Authorization: Secure JWT authentication with hashed admin credentials.
+
+Role-Based Access: Admin-only dashboard with protected blog management APIs.
+
+CRUD APIs: Complete CRUD operations for blog posts (create, read, update, delete).
+
+AI Integration: Content generation powered by Gemini AI for blog creation.
+
+Database: Uses MongoDB for scalable and efficient data storage.
+
+API Documentation: All API endpoints are tested and verified via Postman.
+
+✅ Frontend (Supportive)
+
+Built with React (Vite) and Tailwind CSS.
+
+Features a clean, responsive UI for managing blogs.
+
+Supports login, blog creation, editing, and deletion through the backend APIs.
+
+Displays error/success messages directly from API responses.
+
+✅ Security & Scalability
+
+Password hashing and JWT token validation ensure secure authentication.
+
+Modular project structure allows easy scalability for new features and routes.
+
+Image optimization handled through ImageKit.io for performance efficiency.
+
 💡 Future Improvements
 Add user registration & login
 
